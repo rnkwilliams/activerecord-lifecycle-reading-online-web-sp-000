@@ -4,6 +4,8 @@ class Post < ActiveRecord::Base
   validate :is_title_case 
   
   before_validation :make_title_case
+  
+  
 
   private
 
